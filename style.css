@@ -11,7 +11,13 @@ body {
     padding: 20px;
 }
 
-header
+header {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
 .profile-img {
     width: 180px;
     height: 180px;
@@ -19,11 +25,6 @@ header
     border: 5px solid white;
     object-fit: cover;
     margin-bottom: 15px;
-}{
-    background: #0077cc;
-    color: white;
-    text-align: center;
-    padding: 40px;
 }
 
 section {
@@ -31,10 +32,14 @@ section {
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+h1 {
+    color: white;
+}
+
+h2 {
     color: #0077cc;
 }
 
@@ -42,9 +47,42 @@ ul {
     line-height: 1.8;
 }
 
+.project-card {
+    background: #f8f9fa;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 5px solid #0077cc;
+}
+
+.btn {
+    display: inline-block;
+    background: #0077cc;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #005fa3;
+}
+
 footer {
     text-align: center;
     background: #0077cc;
     color: white;
     padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
 }
