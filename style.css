@@ -11,7 +11,15 @@ body {
     padding: 20px;
 }
 
-header {
+header
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    margin-bottom: 15px;
+}{
     background: #0077cc;
     color: white;
     text-align: center;
